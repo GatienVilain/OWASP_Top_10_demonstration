@@ -80,7 +80,7 @@ try
         if ( $result != NULL )
 
         # SECURE
-        # 
+        # password_verify() allows you to check if a given password corresponds to a hash, previously chopped with password_hash().
 
         // if ( $result != NULL && password_verify($passwd, $result[0]['mot_de_passe']) )
 
