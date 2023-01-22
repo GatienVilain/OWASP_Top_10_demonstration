@@ -24,13 +24,13 @@ try
         {
             // * ---------- Broken Access Control ----------------
 
-            if ((new User())->is_admin())
-            {
-                // if ($_GET['action'] === 'admin')
-                // {
+            // if ((new User())->is_admin())
+            // {
+                if ($_GET['action'] === 'admin')
+                {
                     (new UsersModeration())->execute();
-                // }
-            }
+                }
+            // }
 
             // * ---------------------------------------------------
 

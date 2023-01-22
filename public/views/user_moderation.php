@@ -1,4 +1,4 @@
-<?php $title = "Drive LBR"; ?>
+<?php $title = "ADMIN ONLY"; ?>
 <?php $stylesheets = "<link rel=\"stylesheet\" href=\"public/css/user_moderation.css\">" ?>
 <?php $scripts = "" ?>
 
