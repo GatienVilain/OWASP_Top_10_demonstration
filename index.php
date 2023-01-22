@@ -81,7 +81,10 @@ try
 
         # SECURE
         # 
+
         // if ( $result != NULL && password_verify($passwd, $result[0]['mot_de_passe']) )
+
+        // # Hash for Briques_Rouges2022 -> $2y$10$DEl5PsVTQ73aO/T04UNO8.P16kUE4KVHCz05T4z.kivNFlRU0NkO.
         // * -------------------------------------------------------------------------
         {
             $_SESSION['connected'] = 1;
