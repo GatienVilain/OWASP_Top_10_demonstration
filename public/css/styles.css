@@ -87,20 +87,6 @@ img{
 /* Mobile layout */
 
 @media only screen and ( max-width: 992px) {
-    .logo.complet {
-        display: none;
-    }
-    .logo.mobile {
-        height: 5vh;
-        width: 7em;
-        padding: 1vh 3vw;
-        background-color: #fff;
-        border-radius: 50% / 100%;
-        display: flex;
-        justify-content: center;
-        align-content: center;
-    }
-
     /* Navbar */
     #navbar-button:after,
     #navbar-button:before {
@@ -134,6 +120,13 @@ img{
     #navbar:focus {
         top: 7vh;
     }
+    .logo{
+        font-size: 1.5em;
+        color: var(--couleur-police-fond-fonce);
+        text-align: left;
+        text-decoration: none;
+        margin: 1vh 0;
+    }
     #navbar a,
     #navbar button {
         font-size: 6em;
@@ -142,6 +135,7 @@ img{
         text-decoration: none;
         margin: 1vh 0;
     }
+    .logo::after,
     #navbar > a::after,
     #navbar > button::after {
         display: block;
@@ -165,20 +159,6 @@ img{
 /* Desktop layout */
 
 @media only screen and ( min-width: 992px) {
-    .mobile {
-        display: none;
-    }
-    .logo.complet {
-        height: 6vh;
-		width: 17em;
-        padding: 0 0.3vw;
-        background-color: #fff;
-        border-radius: 2vh;
-        display: flex;
-        justify-content: center;
-        align-content: center;
-    }
-
     /* navbar */
     #navbar-button {
         display: none;
@@ -187,6 +167,7 @@ img{
         display: flex;
         flex-direction: row-reverse;
     }
+    .logo,
     #navbar a,
     #navbar button {
         font-size: 1.4em;
@@ -195,6 +176,7 @@ img{
         text-decoration: none;
         margin: 0 2vw;
     }
+    .logo::after,
     #navbar > a::after,
     #navbar > button::after {
         display: block;

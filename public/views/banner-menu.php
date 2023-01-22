@@ -1,8 +1,8 @@
-{{/*  <?php if ( !empty($_SESSION["admin"]) )
+<?php if ( !empty($_SESSION["admin"]) )
 {
-    require('public/view/admin_banner_menu.php');
+    require('public/views/admin_banner_menu.php');
 }
-else { $admin_navbar = ""; } ?>  */}}
+else { $admin_navbar = ""; } ?>
 
 
 <?php ob_start(); ?>
@@ -12,7 +12,7 @@ else { $admin_navbar = ""; } ?>  */}}
     <a title="Se déconnecter et revenir à la page de connexion" href="index.php?action=logout">Logout</a>
 
     <!-- Admin Only -->
-    {{/*  <?= $admin_navbar ?>  */}}
+    <?= $admin_navbar ?>
 </nav>
 
 <?php $banner_menu = ob_get_clean(); ?>
